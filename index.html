@@ -12,7 +12,14 @@
     <input id="add2" class="123" type="number"> </input>
     <button onclick="add()" id="12" type="submit"> Add All The Values... </button>
   </div>
-  <script src="https://mahrshaa.github.io/Calculator/script.js"></script>
+  <script>
+  function add() {
+  var result =
+    Number(document.getElementById("add1").value) +
+    Number(document.getElementById("add2").value);
+  window.alert(result);
+}
+</script>
 </body>
 
 </html>
